@@ -283,7 +283,7 @@ span {
 @media (max-width:350px) {
   a.btn1 {
     right: 8%;
-    top: 93.7%;
+    top: 93.7% !important;
     width: 118px !important;
     height: 40px !important;
     font-size: .99rem !important;
