@@ -17,8 +17,8 @@ a {
 :root {
   --text-color: #f5f5f5;
   --hover-color: #12f7ff;
-  --bg-color: black !important;
-  --secon-bg-color: #292e33;
+  --bg-color: black!important;
+  --secon-bg-color: rgb(25, 28, 41) !important;
   --big-font: 2.5rem;
   --norma-font: 2rem;
   --neone-box-shadow: 0 0 .5rem #12f7ff;
@@ -33,6 +33,7 @@ a {
     0 0 150px rgba(18, 247, 255, 0.3),
 }
 
+/* #250821 */
 body {
   font-family: "Poppins", sans-serif;
   background-color: var(--bg-color);
@@ -251,7 +252,7 @@ span {
     margin-top: 10px;
     position: absolute !important;
     right: 7%;
-    top: 94.9%;
+    top: 456px !important;
     
   }
   a.btn {
@@ -271,7 +272,7 @@ span {
  
   a.btn1 {
     right: 6%;
-    top: 98.5%;
+    top: 475px !important;
   }
   h1{
     font-weight: 600 !important;
@@ -283,15 +284,17 @@ span {
 @media (max-width:350px) {
   a.btn1 {
     right: 8%;
-    top: 80.7% !important;
+    top: 450px !important;
     width: 118px !important;
     height: 40px !important;
     font-size: .99rem !important;
+    /* display: none !important; */
   }
   a.btn {
     width: 120px !important;
     height: 40px !important;
     font-size: .99rem !important;
+    
   }
   
   .text h3 span{

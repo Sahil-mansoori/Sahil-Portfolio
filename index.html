@@ -6,14 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
-    <!-- favicon link -->
-    <link rel="apple-touch-icon" sizes="180x180" href="favionc1/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="favionc1/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="favionc1/favicon-16x16.png">
-    <link rel="manifest" href="favionc1/site.webmanifest">
-    <link rel="mask-icon" href="favionc1/safari-pinned-tab.svg" color="#5bbad5">
-    <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="theme-color" content="#ffffff">
+    <!-- favicon logo -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 
     <!-- boxicons css link -->
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
@@ -28,9 +22,45 @@
 
     <!-- Aos css link -->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="homepreloader.css">
 </head>
 
 <body>
+
+    <!--=================================== Preloader section ==================================-->
+    <section class="homepreloader" >
+        <div class="preloader">
+             <span style="--i:1;"></span>
+             <span style="--i:2;"></span>
+             <span style="--i:3;"></span>
+             <span style="--i:4;"></span>
+             <span style="--i:5;"></span>
+             <span style="--i:6;"></span>
+             <span style="--i:7;"></span>
+             <span style="--i:8;"></span>
+             <span style="--i:9;"></span>
+             <span style="--i:10;"></span>
+             <span style="--i:11;"></span>
+             <span style="--i:12;"></span>
+             <span style="--i:13;"></span>
+             <span style="--i:14;"></span>
+             <span style="--i:15;"></span>
+             <span style="--i:16;"></span>
+             <span style="--i:17;"></span>
+             <span style="--i:18;"></span>
+             <span style="--i:19;"></span>
+             <span style="--i:20;"></span>
+        </div>
+   </section>
+
+   <script>
+document.addEventListener("DOMContentLoaded", function () {
+        // Hide the preloader
+        document.querySelector(".preloader").style.display = "none";
+        document.querySelector(".homepreloader").style.display = "none";
+    });
+   </script>
+
     <!--=================================== header section ==================================-->
 
     <header>
