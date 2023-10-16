@@ -297,7 +297,7 @@ span {
   }
 }
 
-@media (min-width:300px) and (max-width:349px) {
+@media (min-width:320px) and (max-width:349px) {
   a.btn1 {
     width: 110px !important;
     height: 37px !important;
@@ -320,6 +320,97 @@ span {
   .text h3 span{
     font-size: 14px;
     margin-top: 3px;
+    
+  }
+}
+
+@media (min-width:300px) and (max-width:319px) {
+  a.btn1 {
+    width: 110px !important;
+    height: 37px !important;
+    font-size: .79rem !important;
+    margin-top: 10px;
+    position: absolute !important;
+    right: 7%;
+    top: 462px !important;
+    margin-top: 20px !important;
+
+    
+  }
+  a.btn {
+    width: 110px !important;
+    height: 37px !important;
+    font-size: .79rem !important;
+    margin-top: 20px !important;
+  }
+  
+  .text h3 span{
+    font-size: 9px !important;
+    margin-top: 5px;
+    /* border: 1px solid red; */
+    font-weight: 700;
+    
+    
+  }
+}
+@media (min-width:280px) and (max-width:299px) {
+  a.btn1 {
+    width: 110px !important;
+    height: 37px !important;
+    font-size: .79rem !important;
+    margin-top: 10px;
+    position: absolute !important;
+    right: 7%;
+    top: 495px !important;
+    margin-top: 20px !important;
+    
+
+    
+  }
+  a.btn {
+    width: 110px !important;
+    height: 37px !important;
+    font-size: .79rem !important;
+    margin-top: 20px !important;
+  }
+  
+  .text h3 span{
+    font-size: 9px !important;
+    margin-top: 5px;
+    /* border: 1px solid red; */
+    font-weight: 700;
+    
+    
+  }
+}
+
+@media (min-width:200px) and (max-width:279px) {
+  a.btn1 {
+    width: 100px !important;
+    height: 37px !important;
+    font-size: .8rem !important;
+    margin-top: 10px;
+    position: absolute !important;
+    right: 7%;
+    top: 510px !important;
+    margin-top: 20px !important;
+    
+
+    
+  }
+  a.btn {
+    width: 100px !important;
+    height: 37px !important;
+    font-size: .79rem !important;
+    margin-top: 20px !important;
+  }
+  
+  .text h3 span{
+    font-size: 9px !important;
+    margin-top: 5px;
+    /* border: 1px solid red; */
+    font-weight: 700;
+    
     
   }
 }
