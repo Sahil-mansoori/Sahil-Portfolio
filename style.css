@@ -77,7 +77,7 @@ header {
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  padding: 15px 10%;
+  padding: 5px 10%;
   position: fixed;
   top: 0;
   left: 0;
@@ -100,6 +100,10 @@ span {
 
 .navlist {
   display: flex;
+  align-items: center;
+  /* border: 1px solid red; */
+  margin-top: 17px;
+  
 }
 
 .navlist a {
@@ -119,6 +123,7 @@ span {
     0 0 80px rgba(18, 247, 255, 0.5),
     0 0 100px rgba(18, 247, 255, 0.5),
     0 0 150px rgba(18, 247, 255, 0.5);
+    
 }
 
 
@@ -1186,8 +1191,11 @@ footer a i {
   }
 
   .navlist a {
-    padding: 8px 15px;
+    padding: 8px 15px !important;
+  
   }
+  
+
 
   .text h3 {
     display: inline-flex;
