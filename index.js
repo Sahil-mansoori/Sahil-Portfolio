@@ -1,3 +1,4 @@
+// technical bar Animation =========================================>
 var words = document.getElementsByClassName('word');
 var wordArray = [];
 var currentWord = 0;
@@ -46,19 +47,14 @@ function splitLetters(word) {
     word.appendChild(letter);
     letters.push(letter);
   }
-  
   wordArray.push(letters);
 }
-
 changeWord();
 setInterval(changeWord, 4000);
 
 
 
-// circle animation
-
-
-
+// circle animation ===================================================>
 const circles = document.querySelectorAll('.circle');
 circles.forEach(elem=>{
   var dots = elem.getAttribute("data-dots");
@@ -66,9 +62,6 @@ circles.forEach(elem=>{
   var percent = Math.floor(dots*marked/100);
   var points = "";
   var rotate = 360/dots;
-
-
-
   for(let i = 0 ; i < dots ; i++){
     points += `<div class="points" style="--i: ${i}; --rot:${rotate}deg"></div>`;
   }
@@ -80,36 +73,16 @@ circles.forEach(elem=>{
 })
 
 
-// mixitip portfolio
+// mixitip portfolio ===============================================>
 
 var mixer = mixitup('.portfolio-gallery');
 
 
-// active menu
-
-// let menuli = document.querySelectorAll('header ul li a');
-// let section = document.querySelectorAll('section');
 
 
-
-// function activeMenu(){
-//   let len = section.length;
-//   while(--len && window.scrollY + 97< section[len].offsetTop){}
-//   menuli.forEach(sec => sec.classList.remove("active"));
-//   menuli[len].classList.add('active');
-// }
-
-// activeMenu();
-// window.addEventListener("scroll",activeMenu);
-
-
-// toggle icon navbar
-
+// toggle icon navbar ======================================================>
 let menuIcon = document.querySelector("#menu-icon");
-// console.log(menuIcon);
 let navlist = document.querySelector(".navlist");
-// console.log(navlist)
-
 menuIcon.onclick = ()=>{
   menuIcon.classList.toggle("bx-x");
   navlist.classList.toggle("open");
@@ -119,4 +92,48 @@ window.onscroll = ()=>{
   menuIcon.classList.remove("bx-x");
   navlist.classList.remove("open");
 }
+
+
+
+// active menu bar
+let sections = document.querySelectorAll('section');
+let navLinks = document.querySelectorAll('header ul li a');
+// console.log(navLinks);
+
+window.onscroll = () => {
+    sections.forEach(sec => {
+        let top = window.scrollY;
+        let offset = sec.offsetTop - 80;
+        let height = sec.offsetHeight;
+        let id = sec.getAttribute('id');
+
+        if (top >= offset && top < offset + height) {
+            navLinks.forEach(links => {
+                links.classList.remove('active');
+                document.querySelector('header ul li a[href*=' + id + ']').classList.add('active');
+            });
+        };
+
+    });
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
