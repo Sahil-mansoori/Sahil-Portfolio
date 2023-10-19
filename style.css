@@ -107,10 +107,14 @@ span {
 }
 
 .navlist a {
+  display: inline-block;
   color: var(--text-color);
   font-weight: 500;
-  padding: 10px 20px;
+  padding: 2px 20px;
   /* border: 1px solid red; */
+  animation: sliderAnimation 1s ease forwards;
+  animation-delay: calc(.3s * var(--i));
+  opacity: 0;
 }
 
 .navlist a:hover {
@@ -1170,6 +1174,17 @@ footer a i {
     box-shadow: var(--neone-box-shadow);
   }
 
+}
+@keyframes sliderAnimation {
+  0% {
+    opacity: 0;
+    transform:translateY(100px);
+  }
+
+  100% {
+    opacity: 1;
+    transform:translateY();
+  }
 }
 
 
