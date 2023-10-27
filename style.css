@@ -781,7 +781,7 @@ background-position:top;
 /* <============================================== skills section =============================================>  */
 
 .skills {
-  background: var(--secon-bg-color);
+  background: black;
 }
 
 .skills .main-text {
@@ -1083,7 +1083,9 @@ background-position:top;
 .port-content a i {
   font-size: 1.3rem;
 }
-
+#portfolio{
+  background-color: var(--secon-bg-color);
+}
 /* <============================================== Contact section =============================================>  */
 .contact {
   background: var(--secon-bg-color);
