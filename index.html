@@ -23,6 +23,8 @@
     <!-- Aos css link -->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="homepreloader.css">
+
+
 </head>
 
 <body>
@@ -57,7 +59,7 @@
 
     <!--=================================== header section ==================================-->
 
-    <!-- <img src="images/logo2.png" width="50px" alt=""> -->
+
     <header>
 
         <div class="logo"> <span style="color: #12f7ff; font-size: 32px;">S</span>ahil</div>
@@ -76,63 +78,77 @@
     <!--=================================== home section ==================================-->
 
 
-    <section id="home" class="home " style="box-sizing: border-box;">
 
-        <div class=" row aboutreversebox" style="padding-top: 50px; flex-wrap: wrap;">
+    <div id="videoWrapper">
+        <video poster="https://sb.vox1.net/video/poligonBG.jpg" playsinline autoplay muted loop>
+            <source src="https://sb.vox1.net/video/poligons.mp4" type="video/mp4">
+        </video>
+        <div class="caption">
+            <div class="contents" data-aos="fade-right">
+                <div id="home" class="home " style="box-sizing: border-box;">
 
-            <!-- home text -->
-            <div class="col-lg-6 col-md-12 col-sm-12">
-                <div class="home-content " data-aos="fade-right" style=" padding:10px    ">
-                    <h1>Hi!&nbsp; I'm&nbsp;&nbsp;Sahil Mansoori</h1>
-                    <div class="text">
-                        <h3>And&nbsp; I'm </h3> &ensp;
-                        <h3>
-                            <span class="word wisteria">Web &ensp; Designer.</span>
-                            <span class="word belize">Frontend &ensp; Developer.</span>
-                            <span class="word pomegranate">Web &ensp;Developer.</span>
+                    <div class="outercontainer">
 
-                        </h3>
-                    </div>
+                        <div class=" row aboutreversebox" style="padding-top: 50px; flex-wrap: wrap;">
 
-                    <p style="letter-spacing: 1px;">I am a skilled and passionate Web Designer/Frontend Developer with
-                        experience in creating visually appearing and user-friendly websites.</p>
+                            <!-- home text -->
+                            <div class="col-lg-12 col-md-12 col-sm-6">
+                                <div class="home-content " style=" padding:10px    ">
+                                    <h1>Hi,&nbsp; I'm&nbsp;&nbsp;Sahil Mansoori</h1>
+                                    <div class="text">
+                                        <h3>And&nbsp; I'm </h3> &ensp;
+                                        <h3>
+                                            <span class="word wisteria">Web &ensp; Designer.</span>
+                                            <span class="word belize">Frontend &ensp; Developer.</span>
+                                            <span class="word pomegranate">Web &ensp;Developer.</span>
+
+                                        </h3>
+                                    </div>
+
+                                    <p class="parahometext" style="letter-spacing: 1px;">I am a skilled and passionate
+                                        Web Designer/Frontend
+                                        Developer with
+                                        experience in creating visually appearing and user-friendly websites.</p>
 
 
 
-                    <div class="btn-box ">
+                                    <div class="btn-box ">
 
-                        <div class=" btnmargin col-lg-6 col-md-6 col-sm-6">
-                            <a href="images/resume.pdf" download class="btn">Download Cv</a>
+                                        <div class=" btnmargin col-lg-6 col-md-6 col-sm-6">
+                                            <a href="images/resume.pdf" download class="btn">Download Cv</a>
+                                        </div>
+
+                                        <div class=" btnmargin col-lg-6 col-md-6 col-sm-6">
+                                            <a href="#" class="btn1 ">Hire me Now!</a>
+                                        </div>
+                                    </div>
+
+                                    <div class="social-icons">
+                                        <a href="https://github.com/Sahil-mansoori"> <i
+                                                class='bx bxl-github'></i></i></a>
+                                        <a href="https://www.linkedin.com/in/sahilmansoori123"> <i
+                                                class='bx bxl-linkedin'></i></a>
+                                        <a href="#"> <i class='bx bxl-twitter'></i></a>
+                                        <a href="mailTo:mansoorisahil340@gmail.com"> <i class='bx bx-envelope'></i></a>
+                                    </div>
+
+
+                                </div>
+                            </div>
                         </div>
-
-                        <div class=" btnmargin col-lg-6 col-md-6 col-sm-6">
-                            <a href="#" class="btn1 ">Hire me Now!</a>
-                        </div>
                     </div>
-
-                    <div class="social-icons">
-                        <a href="https://github.com/Sahil-mansoori"> <i class='bx bxl-github'></i></i></a>
-                        <a href="https://www.linkedin.com/in/sahilmansoori123"> <i class='bx bxl-linkedin'></i></a>
-                        <a href="#"> <i class='bx bxl-twitter'></i></a>
-                        <a href="mailTo:mansoorisahil340@gmail.com"> <i class='bx bx-envelope'></i></a>
-                    </div>
-
 
                 </div>
             </div>
-
-
-            <!-- home image -->
-            <div class="col-lg-6 col-md-12 col-sm-12" style=" display: flex;  justify-content: center;">
-                <div class="home-image " data-aos="fade-left">
-                    <div class="img-box2"></div>
-                </div>
-            </div>
-
-
-
         </div>
-    </section>
+
+    </div>
+
+
+
+
+
+
 
 
     <!--=================================== about section ==================================-->
@@ -143,12 +159,19 @@
 
             <!-- home image -->
             <div class="col-lg-6 col-md-12 col-sm-12" style=" display: flex;  justify-content: center;">
-                <div class="home-image " data-aos="fade-left" data-aos-offset="180"
-                data-aos-delay="400" >
+                <div class="home-image " data-aos="fade-left" data-aos-offset="180" data-aos-delay="400">
                     <div class="img-box">
                     </div>
                 </div>
             </div>
+
+            <!-- home image -->
+            <!-- <div class="col-lg-6 col-md-12 col-sm-12" style=" display: flex;  justify-content: end;">
+                <div class="home-image " >
+                   
+                </div>
+            </div> -->
+
 
 
             <div class="about-content col-lg-6 col-md-12 col-sm-12" data-aos="fade-right" data-aos-offset="180"
@@ -171,39 +194,7 @@
         </div>
     </section>
 
-    <!--=================================== Service
-         section ==================================-->
-    <!-- <section class="services" id="services" data-aos="fade-up">
-        <h2 class="heading">Our Services</h2>
 
-        <div class="services-container">
-            <div class="services-box" data-aos="fade-right" data-aos-delay="400">
-                <i class='bx bx-code-alt'></i><br>
-                <h3 class="webhedding">Web Development</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae velit eligendi ratione molestias
-                    quidem magni sit .</p>
-                <a href="#" class="btn" style="width: 130px;height: 38px;">Read More</a>
-            </div>
-
-            <div class="services-box" data-aos="zoom-in" data-aos-delay="400">
-                <i class='bx bxs-devices'></i><br>
-                <h3>Mobile-Responsive</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae velit eligendi ratione molestias
-                    quidem magni sit.</p>
-                <a href="#" class="btn" style="width: 130px;height: 38px;">Read More</a>
-            </div>
-
-            <div class="services-box" data-aos="fade-left" data-aos-delay="400">
-                <i class='bx bxs-layer-plus'></i><br>
-                <h3>Web Design</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae velit eligendi ratione molestias
-                    quidem magni sit .</p>
-                <a href="#" class="btn" style="width: 130px;height: 38px;">Read More</a>
-            </div>
-        </div>
-
-
-    </section> -->
 
     <!--=================================== Skill section ==================================-->
     <section id="skills" class="skills" data-aos="zoom-in">
