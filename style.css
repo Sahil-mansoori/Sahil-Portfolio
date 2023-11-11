@@ -1227,7 +1227,7 @@ footer a i {
   }
 
 
-
+  
   .text h3 {
     display: inline-flex;
     vertical-align: top;
@@ -1242,11 +1242,23 @@ footer a i {
 
 }
 
+.footer_con{
+  margin-left: 200px;
+}
+.copyright{
+  margin-left: 70px;
+}
 
 @media (max-width:768px) {
   #menu-icon {
     display: block;
     transition: all .4s ease;
+  }
+  .footer_con{
+    margin-left: 10px !important;
+  }
+  .copyright{
+    margin-left: 10px !important;
   }
 
   h2 {
@@ -1302,6 +1314,5 @@ footer a i {
   html {
     font-size: 80%;
   }
-
 
 }
