@@ -795,7 +795,6 @@ a.btn1 {
   left: 0;
   background-color: var(--hover-color);
   border-radius: 25px;
-  box-shadow: var(--neone-box-shadow);
 }
 
 .skill-bar .bar .html {
